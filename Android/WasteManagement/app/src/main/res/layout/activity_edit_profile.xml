@@ -1,0 +1,102 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/profilebg"
+    android:orientation="vertical"
+    android:padding="20dp"
+    tools:context=".EditProfileActivity">
+
+    <ImageView
+        android:id="@+id/editProfileBackIV"
+        android:layout_width="50dp"
+        android:layout_height="40dp"
+        android:src="@drawable/ic_back" />
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Edit Profile"
+        android:textSize="35dp"
+        android:textStyle="bold"
+        android:textColor="@color/green"
+        android:gravity="center"
+        android:layout_marginTop="10dp"/>
+
+
+    <EditText
+        android:id="@+id/eNameEditText"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="25dp"
+        android:hint="Name"
+        android:background="@drawable/rect_box"
+        android:padding="12dp"
+        android:textSize="18dp" />
+
+    <EditText
+        android:id="@+id/eEmailEditText"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="25dp"
+        android:hint="email"
+        android:background="@drawable/rect_box"
+        android:padding="12dp"
+        android:textSize="18dp" />
+
+    <EditText
+        android:id="@+id/eUserNameEditText"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="25dp"
+        android:hint="User Name"
+        android:background="@drawable/rect_box"
+        android:padding="12dp"
+        android:textSize="18dp" />
+
+    <EditText
+        android:id="@+id/eNumberEditText"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="25dp"
+        android:hint="Number"
+        android:inputType="number"
+        android:background="@drawable/rect_box"
+        android:padding="12dp"
+        android:textSize="18dp" />
+
+    <EditText
+        android:id="@+id/eAddressEditText"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="25dp"
+        android:hint="Address"
+        android:background="@drawable/rect_box"
+        android:padding="12dp"
+        android:textSize="18dp" />
+
+    <EditText
+        android:id="@+id/eLocationEditText"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="25dp"
+        android:hint="location"
+        android:background="@drawable/rect_box"
+        android:padding="12dp"
+        android:textSize="18dp" />
+
+    <TextView
+        android:id="@+id/eSubmitTextView"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="25dp"
+        android:layout_marginBottom="20dp"
+        android:gravity="center"
+        android:text="SUBMIT"
+        android:textColor="@color/green"
+        android:textSize="25dp"
+        android:textStyle="bold" />
+
+</LinearLayout>

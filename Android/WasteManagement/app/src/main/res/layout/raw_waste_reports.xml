@@ -1,0 +1,68 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:orientation="vertical"
+    android:background="@color/ash"
+    android:padding="15dp">
+
+    <androidx.cardview.widget.CardView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        app:cardElevation="2dp"
+        app:cardCornerRadius="12dp">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:padding="12dp"
+            android:orientation="vertical">
+
+            <ImageView
+                android:id="@+id/wReportImageView"
+                android:layout_width="match_parent"
+                android:layout_height="200dp"
+                android:scaleType="centerCrop"
+                android:src="@drawable/logo"/>
+
+            <TextView
+                android:id="@+id/wDescTextView"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="desc"
+                android:layout_marginTop="10dp"
+                android:textSize="18dp"/>
+
+            <TextView
+                android:id="@+id/wDateTextView"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="date"
+                android:textStyle="bold"
+                android:layout_marginTop="10dp"
+                android:textSize="20dp"/>
+
+
+           <Button
+               android:id="@+id/directionButton"
+               android:layout_width="match_parent"
+               android:layout_height="wrap_content"
+               android:text="Get Direction"
+               android:layout_marginTop="10dp" />
+
+            <Button
+                android:id="@+id/collectedButton"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Collect Waste"
+                android:backgroundTint="@color/red"
+                android:layout_marginTop="10dp" />
+
+        </LinearLayout>
+
+
+
+    </androidx.cardview.widget.CardView>
+
+</LinearLayout>

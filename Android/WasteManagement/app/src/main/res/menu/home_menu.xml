@@ -1,0 +1,49 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <group android:checkableBehavior="single">
+
+        <item android:id="@+id/nav_home"
+            android:icon="@drawable/ic_home"
+            android:title="Home"/>
+
+        <item android:id="@+id/nav_profile"
+              android:icon="@drawable/ic_person"
+              android:title="Profile"/>
+
+        <item android:id="@+id/nav_rewards"
+            android:icon="@drawable/ic_money"
+            android:title="Rewards"/>
+
+        <item android:id="@+id/nav_Report"
+            android:icon="@drawable/ic_report"
+            android:title="Waste Report"/>
+
+      <!--  <item android:id="@+id/nav_chat"
+            android:icon="@drawable/ic_chat"
+            android:title="Chat"/> -->
+        <item android:id="@+id/nav_campaign"
+            android:icon="@drawable/ic_campaign"
+            android:title="Campaigns"/>
+
+        <item android:id="@+id/nav_recycling"
+            android:icon="@drawable/ic_recycling"
+            android:title="Recycling Centers"/>
+
+        <item android:id="@+id/nav_history"
+            android:icon="@drawable/ic_history"
+            android:title="Purchase History"/>
+
+        <item android:id="@+id/nav_feedback"
+            android:icon="@drawable/ic_feedback"
+            android:title="Feedback"/>
+
+        <item android:id="@+id/nav_logout"
+            android:icon="@drawable/ic_logout"
+            android:title="Log out"/>
+
+
+    </group>
+
+
+</menu>

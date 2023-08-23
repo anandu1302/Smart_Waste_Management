@@ -1,0 +1,7 @@
+<!-- bg_user_message.xml -->
+
+<shape xmlns:android="http://schemas.android.com/apk/res/android"
+    android:shape="rectangle">
+    <corners android:radius="8dp" />
+    <solid android:color="#81BE00" />
+</shape>
